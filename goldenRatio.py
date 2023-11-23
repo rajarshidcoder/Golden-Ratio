@@ -34,6 +34,6 @@ def CreateCurve(FibonacciSeries,radius,box = True,switch = False):
                 t.left(90)
                 t.forward(radius*num)
 
-CreateCurve([i for i in range(20)],10,box=False,switch=True)
+CreateCurve(fiboFunc(7),10,switch=True)
 
 turtle.mainloop()
